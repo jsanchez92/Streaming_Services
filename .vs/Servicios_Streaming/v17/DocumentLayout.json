@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|c:\\curso_c#_sqlserver\\servicios_streaming\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|C:\\Curso_C#_SqlServer\\Servicios_Streaming\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|C:\\Curso_C#_SqlServer\\Servicios_Streaming\\vistas\\frmservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|c:\\curso_c#_sqlserver\\servicios_streaming\\vistas\\frmaddusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmaddusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|C:\\Curso_C#_SqlServer\\Servicios_Streaming\\vistas\\frmaddusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmaddusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|c:\\curso_c#_sqlserver\\servicios_streaming\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|C:\\Curso_C#_SqlServer\\Servicios_Streaming\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|c:\\curso_c#_sqlserver\\servicios_streaming\\vistas\\frmagregartiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmagregartiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|c:\\curso_c#_sqlserver\\servicios_streaming\\controlador\\cusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:controlador\\cusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|c:\\curso_c#_sqlserver\\servicios_streaming\\vistas\\frmservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|C:\\Curso_C#_SqlServer\\Servicios_Streaming\\vistas\\frmagregartiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:vistas\\frmagregartiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|c:\\curso_c#_sqlserver\\servicios_streaming\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F5EBD-096E-4527-B488-AAA645CC826D}|Servicios_Streaming.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmAddUsuarios.cs",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAddUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmAddUsuarios.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAddUsuarios.cs",
+              "RelativeToolTip": "Vistas\\FrmAddUsuarios.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAhwCAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:15:59.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CUsuarios.cs",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Controlador\\CUsuarios.cs",
+              "RelativeDocumentMoniker": "Controlador\\CUsuarios.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Controlador\\CUsuarios.cs",
+              "RelativeToolTip": "Controlador\\CUsuarios.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwB0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T03:58:48.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmUsuarios.cs",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmUsuarios.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmUsuarios.cs",
+              "RelativeToolTip": "Vistas\\FrmUsuarios.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T03:57:48.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmUsuarios.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\FrmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T03:42:36.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmServicios.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\FrmServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:13:14.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:23:15.839Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAIA5wBsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:24:00.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmAddUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAddUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmAddUsuarios.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAddUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\FrmAddUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:10:08.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmAgregarTipoServicio.cs",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAgregarTipoServicio.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmAgregarTipoServicio.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAgregarTipoServicio.cs",
+              "RelativeToolTip": "Vistas\\FrmAgregarTipoServicio.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwDoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:10:50.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmServicios.cs",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmServicios.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmServicios.cs",
+              "RelativeToolTip": "Vistas\\FrmServicios.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAlwB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:51:51.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmAgregarTipoServicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAgregarTipoServicio.cs",
+              "RelativeDocumentMoniker": "Vistas\\FrmAgregarTipoServicio.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Vistas\\FrmAgregarTipoServicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\FrmAgregarTipoServicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:10:15.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils.cs",
+              "ToolTip": "C:\\Curso_C#_SqlServer\\Servicios_Streaming\\Utils.cs",
+              "RelativeToolTip": "Utils.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T03:45:39.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
