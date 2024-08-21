@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAddUsuarios));
             BtnGuardar = new Controles.RJButton();
             label5 = new Label();
@@ -47,6 +48,9 @@
             label4 = new Label();
             label8 = new Label();
             TxtPass = new TextBox();
+            TtMensaje = new ToolTip(components);
+            EpError = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)EpError).BeginInit();
             SuspendLayout();
             // 
             // BtnGuardar
@@ -149,7 +153,6 @@
             BtnCancelar.FlatStyle = FlatStyle.Flat;
             BtnCancelar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             BtnCancelar.ForeColor = Color.White;
-            BtnCancelar.Image = (Image)resources.GetObject("BtnCancelar.Image");
             BtnCancelar.ImageAlign = ContentAlignment.MiddleLeft;
             BtnCancelar.Location = new Point(757, 867);
             BtnCancelar.Name = "BtnCancelar";
@@ -262,6 +265,10 @@
             TxtPass.Size = new Size(330, 53);
             TxtPass.TabIndex = 36;
             // 
+            // EpError
+            // 
+            EpError.ContainerControl = this;
+            // 
             // FrmAddUsuarios
             // 
             AcceptButton = BtnGuardar;
@@ -291,6 +298,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmAddUsuarios";
             Load += FrmAddUsuarios_Load;
+            ((System.ComponentModel.ISupportInitialize)EpError).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -315,5 +323,7 @@
         private Label label4;
         private Label label8;
         private TextBox TxtPass;
+        private ToolTip TtMensaje;
+        private ErrorProvider EpError;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAgregarTipoServicio));
             label2 = new Label();
             TxtId = new TextBox();
@@ -41,7 +42,10 @@
             cmbTipoServicio = new ComboBox();
             TxtCantDis = new NumericUpDown();
             BtnGuardar = new Controles.RJButton();
+            EpError = new ErrorProvider(components);
+            TtMensaje = new ToolTip(components);
             ((System.ComponentModel.ISupportInitialize)TxtCantDis).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)EpError).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -77,11 +81,10 @@
             BtnCancelar.FlatStyle = FlatStyle.Flat;
             BtnCancelar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             BtnCancelar.ForeColor = Color.White;
-            BtnCancelar.Image = (Image)resources.GetObject("BtnCancelar.Image");
             BtnCancelar.ImageAlign = ContentAlignment.MiddleLeft;
             BtnCancelar.Location = new Point(831, 669);
             BtnCancelar.Name = "BtnCancelar";
-            BtnCancelar.Size = new Size(375, 100);
+            BtnCancelar.Size = new Size(271, 100);
             BtnCancelar.TabIndex = 5;
             BtnCancelar.Text = "Cancelar";
             BtnCancelar.TextColor = Color.White;
@@ -198,6 +201,14 @@
             BtnGuardar.UseVisualStyleBackColor = false;
             BtnGuardar.Click += BtnGuardar_Click;
             // 
+            // EpError
+            // 
+            EpError.ContainerControl = this;
+            // 
+            // TtMensaje
+            // 
+            TtMensaje.ShowAlways = true;
+            // 
             // FrmAgregarTipoServicio
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
@@ -216,9 +227,11 @@
             Controls.Add(TxtId);
             Controls.Add(BtnCancelar);
             Name = "FrmAgregarTipoServicio";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmAgregarTipoServicio";
             Load += FrmAgregarTipoServicio_Load;
             ((System.ComponentModel.ISupportInitialize)TxtCantDis).EndInit();
+            ((System.ComponentModel.ISupportInitialize)EpError).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -237,5 +250,7 @@
         private ComboBox cmbTipoServicio;
         private NumericUpDown TxtCantDis;
         private Controles.RJButton BtnGuardar;
+        private ErrorProvider EpError;
+        private ToolTip TtMensaje;
     }
 }

@@ -34,37 +34,53 @@
             panel1 = new Panel();
             panel2 = new Panel();
             PnContenedor = new Panel();
+            PnNew = new Panel();
+            BtnCancelar = new Controles.RJButton();
+            label3 = new Label();
+            BtnGuardar = new Controles.RJButton();
+            TxtNombre = new TextBox();
             splitContainer1 = new SplitContainer();
             DtServicios = new DataGridView();
+            MenuPrincipal = new ContextMenuStrip(components);
+            nuevoToolStripMenuItem = new ToolStripMenuItem();
+            actualizarToolStripMenuItem1 = new ToolStripMenuItem();
+            refrescarToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator1 = new ToolStripSeparator();
+            salirToolStripMenuItem = new ToolStripMenuItem();
             DtTpoServicio = new DataGridView();
             MenuAgregarTipos = new ContextMenuStrip(components);
             actualizarToolStripMenuItem = new ToolStripMenuItem();
             agregarNuevoToolStripMenuItem = new ToolStripMenuItem();
             panel5 = new Panel();
             label4 = new Label();
-            PnNew = new Panel();
-            label3 = new Label();
-            BtnGuardar = new Controles.RJButton();
-            TxtNombre = new TextBox();
             panel4 = new Panel();
             label2 = new Label();
             TxtBuscar = new TextBox();
             panel3 = new Panel();
             BtnAddNew = new Controles.RJButton();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            toolStripMenuItem2 = new ToolStripMenuItem();
+            contextMenuStrip2 = new ContextMenuStrip(components);
+            toolStripMenuItem3 = new ToolStripMenuItem();
+            toolStripMenuItem4 = new ToolStripMenuItem();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             PnContenedor.SuspendLayout();
+            PnNew.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DtServicios).BeginInit();
+            MenuPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DtTpoServicio).BeginInit();
             MenuAgregarTipos.SuspendLayout();
             panel5.SuspendLayout();
-            PnNew.SuspendLayout();
             panel4.SuspendLayout();
             panel3.SuspendLayout();
+            contextMenuStrip1.SuspendLayout();
+            contextMenuStrip2.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -111,6 +127,84 @@
             PnContenedor.Size = new Size(2085, 769);
             PnContenedor.TabIndex = 2;
             // 
+            // PnNew
+            // 
+            PnNew.Controls.Add(BtnCancelar);
+            PnNew.Controls.Add(label3);
+            PnNew.Controls.Add(BtnGuardar);
+            PnNew.Controls.Add(TxtNombre);
+            PnNew.Location = new Point(233, 51);
+            PnNew.Name = "PnNew";
+            PnNew.Size = new Size(1611, 471);
+            PnNew.TabIndex = 1;
+            PnNew.Visible = false;
+            // 
+            // BtnCancelar
+            // 
+            BtnCancelar.Anchor = AnchorStyles.Top;
+            BtnCancelar.BackColor = Color.PaleVioletRed;
+            BtnCancelar.BackgroundColor = Color.PaleVioletRed;
+            BtnCancelar.BorderColor = Color.PaleVioletRed;
+            BtnCancelar.BorderRadius = 10;
+            BtnCancelar.BorderSize = 0;
+            BtnCancelar.FlatAppearance.BorderSize = 0;
+            BtnCancelar.FlatStyle = FlatStyle.Flat;
+            BtnCancelar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnCancelar.ForeColor = Color.White;
+            BtnCancelar.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnCancelar.Location = new Point(816, 254);
+            BtnCancelar.Name = "BtnCancelar";
+            BtnCancelar.Size = new Size(284, 100);
+            BtnCancelar.TabIndex = 5;
+            BtnCancelar.Text = "&Cancelar";
+            BtnCancelar.TextColor = Color.White;
+            BtnCancelar.UseVisualStyleBackColor = false;
+            BtnCancelar.Click += BtnCancelar_Click;
+            // 
+            // label3
+            // 
+            label3.Anchor = AnchorStyles.Top;
+            label3.AutoSize = true;
+            label3.Font = new Font("Roboto Light", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.FromArgb(44, 48, 57);
+            label3.Location = new Point(641, 60);
+            label3.Name = "label3";
+            label3.Size = new Size(390, 48);
+            label3.TabIndex = 4;
+            label3.Text = "Nombre del Servicio";
+            // 
+            // BtnGuardar
+            // 
+            BtnGuardar.Anchor = AnchorStyles.Top;
+            BtnGuardar.BackColor = Color.FromArgb(100, 194, 205);
+            BtnGuardar.BackgroundColor = Color.FromArgb(100, 194, 205);
+            BtnGuardar.BorderColor = Color.PaleVioletRed;
+            BtnGuardar.BorderRadius = 10;
+            BtnGuardar.BorderSize = 0;
+            BtnGuardar.FlatAppearance.BorderSize = 0;
+            BtnGuardar.FlatStyle = FlatStyle.Flat;
+            BtnGuardar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnGuardar.ForeColor = Color.White;
+            BtnGuardar.Image = (Image)resources.GetObject("BtnGuardar.Image");
+            BtnGuardar.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnGuardar.Location = new Point(520, 254);
+            BtnGuardar.Name = "BtnGuardar";
+            BtnGuardar.Size = new Size(284, 100);
+            BtnGuardar.TabIndex = 2;
+            BtnGuardar.Text = "&Guardar";
+            BtnGuardar.TextColor = Color.White;
+            BtnGuardar.UseVisualStyleBackColor = false;
+            BtnGuardar.Click += BtnGuardar_Click;
+            // 
+            // TxtNombre
+            // 
+            TxtNombre.Anchor = AnchorStyles.Top;
+            TxtNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TxtNombre.Location = new Point(500, 148);
+            TxtNombre.Name = "TxtNombre";
+            TxtNombre.Size = new Size(610, 61);
+            TxtNombre.TabIndex = 1;
+            // 
             // splitContainer1
             // 
             splitContainer1.Dock = DockStyle.Fill;
@@ -134,6 +228,7 @@
             // DtServicios
             // 
             DtServicios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DtServicios.ContextMenuStrip = MenuPrincipal;
             DtServicios.Dock = DockStyle.Fill;
             DtServicios.Location = new Point(0, 0);
             DtServicios.Name = "DtServicios";
@@ -143,6 +238,44 @@
             DtServicios.TabIndex = 0;
             DtServicios.CellClick += DtServicios_CellClick;
             DtServicios.SelectionChanged += DtServicios_SelectionChanged;
+            // 
+            // MenuPrincipal
+            // 
+            MenuPrincipal.ImageScalingSize = new Size(40, 40);
+            MenuPrincipal.Items.AddRange(new ToolStripItem[] { nuevoToolStripMenuItem, actualizarToolStripMenuItem1, refrescarToolStripMenuItem, toolStripSeparator1, salirToolStripMenuItem });
+            MenuPrincipal.Name = "MenuPrincipal";
+            MenuPrincipal.Size = new Size(217, 202);
+            // 
+            // nuevoToolStripMenuItem
+            // 
+            nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
+            nuevoToolStripMenuItem.Size = new Size(216, 48);
+            nuevoToolStripMenuItem.Text = "Nuevo";
+            nuevoToolStripMenuItem.Click += nuevoToolStripMenuItem_Click;
+            // 
+            // actualizarToolStripMenuItem1
+            // 
+            actualizarToolStripMenuItem1.Name = "actualizarToolStripMenuItem1";
+            actualizarToolStripMenuItem1.Size = new Size(216, 48);
+            actualizarToolStripMenuItem1.Text = "Editar";
+            actualizarToolStripMenuItem1.Click += actualizarToolStripMenuItem1_Click;
+            // 
+            // refrescarToolStripMenuItem
+            // 
+            refrescarToolStripMenuItem.Name = "refrescarToolStripMenuItem";
+            refrescarToolStripMenuItem.Size = new Size(216, 48);
+            refrescarToolStripMenuItem.Text = "Refrescar";
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(213, 6);
+            // 
+            // salirToolStripMenuItem
+            // 
+            salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            salirToolStripMenuItem.Size = new Size(216, 48);
+            salirToolStripMenuItem.Text = "Salir.";
             // 
             // DtTpoServicio
             // 
@@ -195,61 +328,6 @@
             label4.Size = new Size(356, 48);
             label4.TabIndex = 3;
             label4.Text = "Tipos de Servicios";
-            // 
-            // PnNew
-            // 
-            PnNew.Controls.Add(label3);
-            PnNew.Controls.Add(BtnGuardar);
-            PnNew.Controls.Add(TxtNombre);
-            PnNew.Location = new Point(233, 51);
-            PnNew.Name = "PnNew";
-            PnNew.Size = new Size(282, 170);
-            PnNew.TabIndex = 1;
-            PnNew.Visible = false;
-            // 
-            // label3
-            // 
-            label3.Anchor = AnchorStyles.Top;
-            label3.AutoSize = true;
-            label3.Font = new Font("Roboto Light", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.FromArgb(44, 48, 57);
-            label3.Location = new Point(-23, 60);
-            label3.Name = "label3";
-            label3.Size = new Size(390, 48);
-            label3.TabIndex = 4;
-            label3.Text = "Nombre del Servicio";
-            // 
-            // BtnGuardar
-            // 
-            BtnGuardar.Anchor = AnchorStyles.Top;
-            BtnGuardar.BackColor = Color.FromArgb(100, 194, 205);
-            BtnGuardar.BackgroundColor = Color.FromArgb(100, 194, 205);
-            BtnGuardar.BorderColor = Color.PaleVioletRed;
-            BtnGuardar.BorderRadius = 10;
-            BtnGuardar.BorderSize = 0;
-            BtnGuardar.FlatAppearance.BorderSize = 0;
-            BtnGuardar.FlatStyle = FlatStyle.Flat;
-            BtnGuardar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnGuardar.ForeColor = Color.White;
-            BtnGuardar.Image = (Image)resources.GetObject("BtnGuardar.Image");
-            BtnGuardar.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnGuardar.Location = new Point(13, 254);
-            BtnGuardar.Name = "BtnGuardar";
-            BtnGuardar.Size = new Size(284, 100);
-            BtnGuardar.TabIndex = 2;
-            BtnGuardar.Text = "Guardar";
-            BtnGuardar.TextColor = Color.White;
-            BtnGuardar.UseVisualStyleBackColor = false;
-            BtnGuardar.Click += BtnGuardar_Click;
-            // 
-            // TxtNombre
-            // 
-            TxtNombre.Anchor = AnchorStyles.Top;
-            TxtNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TxtNombre.Location = new Point(-164, 148);
-            TxtNombre.Name = "TxtNombre";
-            TxtNombre.Size = new Size(610, 61);
-            TxtNombre.TabIndex = 1;
             // 
             // panel4
             // 
@@ -318,6 +396,44 @@
             BtnAddNew.UseVisualStyleBackColor = false;
             BtnAddNew.Click += BtnAddNew_Click;
             // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.ImageScalingSize = new Size(40, 40);
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem2 });
+            contextMenuStrip1.Name = "MenuAgregarTipos";
+            contextMenuStrip1.Size = new Size(298, 100);
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(297, 48);
+            toolStripMenuItem1.Text = "Actualizar";
+            // 
+            // toolStripMenuItem2
+            // 
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new Size(297, 48);
+            toolStripMenuItem2.Text = "Agregar Nuevo";
+            // 
+            // contextMenuStrip2
+            // 
+            contextMenuStrip2.ImageScalingSize = new Size(40, 40);
+            contextMenuStrip2.Items.AddRange(new ToolStripItem[] { toolStripMenuItem3, toolStripMenuItem4 });
+            contextMenuStrip2.Name = "MenuAgregarTipos";
+            contextMenuStrip2.Size = new Size(298, 100);
+            // 
+            // toolStripMenuItem3
+            // 
+            toolStripMenuItem3.Name = "toolStripMenuItem3";
+            toolStripMenuItem3.Size = new Size(297, 48);
+            toolStripMenuItem3.Text = "Actualizar";
+            // 
+            // toolStripMenuItem4
+            // 
+            toolStripMenuItem4.Name = "toolStripMenuItem4";
+            toolStripMenuItem4.Size = new Size(297, 48);
+            toolStripMenuItem4.Text = "Agregar Nuevo";
+            // 
             // FrmServicios
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
@@ -327,25 +443,29 @@
             Controls.Add(panel1);
             Name = "FrmServicios";
             Text = "FrmServicios";
+            WindowState = FormWindowState.Maximized;
             Load += FrmServicios_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             PnContenedor.ResumeLayout(false);
+            PnNew.ResumeLayout(false);
+            PnNew.PerformLayout();
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)DtServicios).EndInit();
+            MenuPrincipal.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)DtTpoServicio).EndInit();
             MenuAgregarTipos.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
-            PnNew.ResumeLayout(false);
-            PnNew.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             panel3.ResumeLayout(false);
+            contextMenuStrip1.ResumeLayout(false);
+            contextMenuStrip2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -371,5 +491,18 @@
         private ContextMenuStrip MenuAgregarTipos;
         private ToolStripMenuItem actualizarToolStripMenuItem;
         private ToolStripMenuItem agregarNuevoToolStripMenuItem;
+        private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem toolStripMenuItem2;
+        private ContextMenuStrip contextMenuStrip2;
+        private ToolStripMenuItem toolStripMenuItem3;
+        private ToolStripMenuItem toolStripMenuItem4;
+        private ContextMenuStrip MenuPrincipal;
+        private ToolStripMenuItem nuevoToolStripMenuItem;
+        private ToolStripMenuItem actualizarToolStripMenuItem1;
+        private ToolStripMenuItem refrescarToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator1;
+        private ToolStripMenuItem salirToolStripMenuItem;
+        private Controles.RJButton BtnCancelar;
     }
 }

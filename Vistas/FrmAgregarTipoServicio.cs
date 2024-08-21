@@ -23,8 +23,17 @@ namespace Servicios_Streaming.Vistas
         private void FrmAgregarTipoServicio_Load(object sender, EventArgs e)
         {
             cargarServicios();
+            AyudaUsuario();
         }
 
+        void AyudaUsuario()
+        {
+            TtMensaje.IsBalloon = true;
+            TtMensaje.SetToolTip(CmbServicio, "Establece el servicio.");
+            TtMensaje.SetToolTip(cmbTipoServicio, "Establece el tipo servicio.");
+            TtMensaje.SetToolTip(TxtCosto, "Establece el costo por servicio.");
+            TtMensaje.SetToolTip(TxtCantDis, "Establece el numero de dispositivos por servicio.");
+        }
         void cargarServicios()
         {
             CmbServicio.DataSource = new CServicios().Buscar("");
@@ -37,25 +46,53 @@ namespace Servicios_Streaming.Vistas
                 cmbTipoServicio.SelectedIndex = 0; // Selecciona el primer ítem para evitar que SelectedValue sea null
             }
         }
-        private void BtnGuardar_Click(object sender, EventArgs e)
-        {       
-            MTipoServicio tipoServicio = new MTipoServicio
+
+        bool Validar()
+        {
+            bool rpt = false;
+            try
             {
-                ServiciosID = Convert.ToInt32( CmbServicio.SelectedValue),
-                Tipo = cmbTipoServicio.Text,
-                Costo = Convert.ToInt32(TxtCosto.Text),
-                Cant_Dispositivos = Convert.ToInt32(TxtCantDis.Value)
-            };
-            string rpt = new CTipoServicio().Insertar(tipoServicio);
-            if (rpt.Equals("Ok"))
-            {
-                MessageBox.Show("Registro Insertado Exitosamente.");
-                FrmServicios.BusquedaExterna();
-                this.Dispose();
+                EpError.Clear();
+                if (CmbServicio.SelectedValue == null) { EpError.SetError(CmbServicio, "El servicio es requerido."); rpt = false;}
+                if (cmbTipoServicio.Text == string.Empty) { EpError.SetError(cmbTipoServicio, "El tipo de servicio es requerido."); rpt = false; }
+                if (TxtCosto.Text == string.Empty ) { EpError.SetError(TxtCosto, "El Costo es requerido."); rpt = false; }
+                if (TxtCantDis.Value == 0) { EpError.SetError(TxtCantDis, "Como mínimo se requiere un dispositivo"); rpt = false; }
+
+                if(CmbServicio.SelectedValue != null && cmbTipoServicio.Text != string.Empty && TxtCosto.Text != string.Empty && TxtCantDis.Value > 0)
+                {
+                    rpt = true;
+                    EpError.Clear();
+                }
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show(rpt);
+                throw;
+            }
+            return rpt;
+        }
+        private void BtnGuardar_Click(object sender, EventArgs e)
+        {
+            if (Validar())
+            {
+                MTipoServicio tipoServicio = new MTipoServicio
+                {
+                    ServiciosID = Convert.ToInt32( CmbServicio.SelectedValue),
+                    Tipo = cmbTipoServicio.Text,
+                    Costo = Convert.ToInt32(TxtCosto.Text),
+                    Cant_Dispositivos = Convert.ToInt32(TxtCantDis.Value)
+                };
+           
+                string rpt = new CTipoServicio().Insertar(tipoServicio);
+                if (rpt.Equals("Ok"))
+                {
+                    MessageBox.Show("Registro Insertado Exitosamente.");
+                    FrmServicios.BusquedaExterna();
+                    this.Dispose();
+                }
+                else
+                {
+                    MessageBox.Show(rpt);
+                }
             }
         }
 

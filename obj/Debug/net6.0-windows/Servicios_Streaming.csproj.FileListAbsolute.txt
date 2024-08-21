@@ -29,3 +29,4 @@ C:\Curso_C#_SqlServer\Servicios_Streaming\obj\Debug\net6.0-windows\Servicio.9362
 C:\Curso_C#_SqlServer\Servicios_Streaming\obj\Debug\net6.0-windows\Servicios_Streaming.Vistas.FrmAgregarTipoServicio.resources
 C:\Curso_C#_SqlServer\Servicios_Streaming\obj\Debug\net6.0-windows\Servicios_Streaming.Vistas.FrmAddUsuarios.resources
 C:\Curso_C#_SqlServer\Servicios_Streaming\obj\Debug\net6.0-windows\Servicios_Streaming.Vistas.FrmUsuarios.resources
+C:\Curso_C#_SqlServer\Servicios_Streaming\obj\Debug\net6.0-windows\Servicios_Streaming.sourcelink.json
